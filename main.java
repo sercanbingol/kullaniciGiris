@@ -9,7 +9,6 @@ import java.util.Scanner;
         userName = scan.nextLine();
         System.out.print("Şifreniz : ");
         password = scan.nextLine();
-        // String'lerde eşitlik için ".equals" ifadesi kullanılır. Daha sonraki derslerde nedeni açıklanacak.
         if (userName.equals("patika") && password.equals("java123")) {
             System.out.println("Giriş Başarılı.");
         } else if (!userName.equals("patika") && password.equals("java123")) {
